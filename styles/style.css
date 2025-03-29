@@ -39,10 +39,15 @@ header p {
   font-style: italic;
   font-variant: small-caps;
   letter-spacing: 1px;
-  color: white;
   margin-top: 5px;
   font-size: 1em;
+  color: white; /* default: white for red background */
 }
+
+.motto.light {
+  color: #7b1b1b; /* dark red on light backgrounds */
+}
+
 
 /* Navigation */
 nav {
