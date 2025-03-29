@@ -117,3 +117,7 @@ footer {
   border-top: 1px solid #ccc;
   color: #777;
 }
+/* Adjust motto color when on light backgrounds */
+.light-motto {
+  color: #7b1b1b; /* Dark red for readability */
+}
