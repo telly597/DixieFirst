@@ -28,9 +28,19 @@ header h1 {
 
 header p {
   font-size: 1em;
-  font-style: italic;
   color: white;
   margin: 0;
+}
+
+.motto {
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 5px;
+  font-size: 1em;
+  display: inline-block;
+  padding-bottom: 2px;
 }
 
 main {
