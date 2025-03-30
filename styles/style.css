@@ -1,3 +1,4 @@
+/* Base */
 body {
   background-color: #f8f5f0;
   color: #1a1a1a;
@@ -48,7 +49,6 @@ header p {
   color: #7b1b1b; /* dark red on light backgrounds */
 }
 
-
 /* Navigation */
 nav {
   margin-top: 12px;
@@ -87,16 +87,27 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 40px;
+  margin-bottom: 15px;
   font-family: 'Cormorant Garamond', serif;
+  color: #7b1b1b;
+}
+
+h4 {
+  font-size: 1.15em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #333;
 }
 
 p {
   margin-bottom: 1.4em;
+  text-align: justify;
 }
 
-/* Blockquote / Motto Style */
+/* Blockquote */
 blockquote {
   font-style: italic;
   border-left: 3px solid #c0032c;
@@ -106,29 +117,59 @@ blockquote {
   font-size: 1.05em;
 }
 
-/* Image Styling */
-img {
-  display: block;
-  margin: 25px auto;
-  max-width: 100%;
+/* Doctrine Page Sections */
+.doctrine-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fdfaf7;
+  border: 1px solid #c7bba5;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
 }
 
-/* Footer */
-footer {
+.doctrine-title {
   text-align: center;
-  font-size: 0.9em;
-  margin-top: 80px;
-  padding: 30px;
-  border-top: 1px solid #ccc;
-  color: #777;
-}
-/* Adjust motto color when on light backgrounds */
-.light-motto {
-  color: #7b1b1b; /* Dark red for readability */
+  font-size: 2em;
+  font-family: 'Cormorant Garamond', serif;
+  color: #c0032c;
+  margin-bottom: 5px;
 }
 
+.doctrine-subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 40px;
+}
 
-/* Tribal Pledge Styling */
+.doctrine-section {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c7bba5;
+}
+
+.doctrine-section:last-of-type {
+  border-bottom: none;
+}
+
+.doctrine-section h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #7b1b1b;
+}
+
+.doctrine-section h4 {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Pledge */
 .tribal-pledge {
   max-width: 600px;
   margin: 80px auto;
@@ -136,7 +177,7 @@ footer {
   border: 2px solid #c0032c;
   border-radius: 8px;
   background-color: #fdfaf7;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
 }
 
 .tribal-pledge h3 {
@@ -163,4 +204,14 @@ footer {
 .tribal-pledge blockquote strong {
   font-size: 1.2em;
   letter-spacing: 1px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 80px;
+  padding: 30px;
+  border-top: 1px solid #ccc;
+  color: #777;
 }
