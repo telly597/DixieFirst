@@ -42,8 +42,11 @@ header p {
   letter-spacing: 1px;
   margin-top: 5px;
   font-size: 1em;
-  color: white; /* default: white for red background */
+  color: white;
+  display: block;
+  text-align: center; /* <-- this is the fix */
 }
+
 
 .motto.light {
   color: #7b1b1b; /* dark red on light backgrounds */
