@@ -284,3 +284,59 @@ body.index-page header {
   background-color: #c0032c;
   color: white;
 }
+
+/* === MAP FOR DIXIELAND HOMEPAGE === */
+
+.map-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.tribal-map-container {
+  position: relative;
+  width: 100%;
+}
+
+.tribal-map {
+  width: 100%;
+  display: block;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* Border overlays */
+.border-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;         /* Faint by default */
+  pointer-events: none;
+}
+
+/* The active border (Dixieland) */
+.border-overlay.active {
+  opacity: 1;
+  filter: drop-shadow(0 0 6px gold);
+}
+
+/* Single shield */
+.shield {
+  position: absolute;
+  transform: translate(-50%, -60%) scale(1);
+  cursor: default;
+  width: 5vw;
+  min-width: 30px;
+  max-width: 55px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  opacity: 1; /* Always visible */
+}
+
+/* Optional: slight hover effect */
+.shield:hover {
+  transform: translate(-50%, -60%) scale(1.05);
+  filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.85));
+}
