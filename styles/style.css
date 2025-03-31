@@ -263,7 +263,7 @@ body.index-page main blockquote {
 
 /* Faint Borders */
 .border-overlay.faint {
-  opacity: 0.2;
+  opacity: 1;
 }
 
 /* Glowing Active Border */
