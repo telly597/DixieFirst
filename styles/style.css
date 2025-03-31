@@ -268,9 +268,10 @@ body.index-page main blockquote {
 
 /* Glowing Active Border */
 .border-overlay.active {
-  filter: drop-shadow(0 0 8px gold);
+  filter: drop-shadow(0 0 14px gold) drop-shadow(0 0 8px gold);
   opacity: 1;
 }
+
 
 /* Shield */
 .dixie-shield {
