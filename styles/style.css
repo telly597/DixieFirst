@@ -295,3 +295,85 @@ body.index-page main blockquote {
   display: block;
   margin: 0 auto 20px auto;
 }
+
+
+/* ========== HANDBOOK STYLES ========== */
+
+body.handbook-page {
+  background: url('assets/images/parchment_texture.png') repeat;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: #222;
+  line-height: 1.8;
+}
+
+body.handbook-page header {
+  background-color: #111;
+  border-bottom: 2px solid #7b1b1b;
+}
+
+body.handbook-page header h1 {
+  color: #f0f0f0;
+  font-size: 2.6em;
+}
+
+body.handbook-page .doctrine-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2em;
+  text-align: center;
+  color: #7b1b1b;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body.handbook-page .doctrine-subtitle {
+  font-style: italic;
+  color: #444;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body.handbook-page .doctrine-section {
+  border-top: 2px solid #c7bba5;
+  padding-top: 30px;
+  margin-top: 40px;
+}
+
+body.handbook-page .doctrine-section h3 {
+  font-variant: small-caps;
+  font-size: 1.4em;
+  color: #7b1b1b;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body.handbook-page ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+body.handbook-page ul li {
+  list-style-type: square;
+  margin-bottom: 12px;
+}
+
+body.handbook-page footer {
+  margin-top: 80px;
+  border-top: 2px solid #c7bba5;
+  padding: 20px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #555;
+}
+
+/* Optional: Monospaced headings for "field manual" vibe */
+body.handbook-page .doctrine-section h3::before {
+  content: "✠ ";
+}
+
+body.handbook-page .doctrine-section h3::after {
+  content: " ✠";
+}
