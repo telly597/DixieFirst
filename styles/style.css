@@ -377,3 +377,117 @@ body.handbook-page .doctrine-section h3::before {
 body.handbook-page .doctrine-section h3::after {
   content: " ✠";
 }
+
+
+/* ========== FAQ Manual Style ========== */
+
+.faq-page {
+  background: url('../assets/images/parchment_texture.png') repeat;
+}
+
+.faq-page h2, .faq-page h3 {
+  text-align: center;
+  color: #7b1b1b;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.faq-page h3 {
+  margin-top: 50px;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+.faq-page section {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #c7bba5;
+  padding-bottom: 20px;
+}
+
+.faq-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-page li {
+  margin-bottom: 15px;
+}
+
+.faq-page strong {
+  color: #c0032c;
+}
+
+.faq-page blockquote {
+  border-left: 3px solid #c0032c;
+  padding-left: 15px;
+  font-style: italic;
+  color: #444;
+}
+
+/* Optional small caps for questions */
+.faq-page h4 {
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+/* FAQ PAGE STYLE */
+body.faq-page {
+  background: url('assets/images/parchment_texture.png') repeat;
+}
+
+body.faq-page header {
+  border-bottom: 2px solid #7b1b1b;
+}
+
+.faq-page h2.doctrine-title {
+  font-size: 2.2em;
+  text-align: center;
+  color: #7b1b1b;
+  margin-bottom: 5px;
+}
+
+.faq-page p.doctrine-subtitle {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+.faq-page .doctrine-section {
+  margin-bottom: 60px;
+  padding: 20px;
+  border: 2px solid #c7bba5;
+  background-color: #fdfaf7;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.faq-page .doctrine-section h3 {
+  text-align: center;
+  font-size: 1.7em;
+  color: #7b1b1b;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.faq-page .doctrine-section p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+.faq-page .doctrine-section strong {
+  color: #c0032c;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+}
+
+.faq-page .doctrine-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.faq-page .doctrine-section li {
+  margin-bottom: 10px;
+}
