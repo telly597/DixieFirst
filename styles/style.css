@@ -198,3 +198,89 @@ footer {
   border-top: 1px solid #ccc;
   color: #777;
 }
+
+
+.tribal-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: 2px solid #c0032c;
+  text-decoration: none;
+  color: #c0032c;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.tribal-button:hover {
+  background-color: #c0032c;
+  color: white;
+}
+
+.heraldic-divider {
+  width: 60px;
+  height: 2px;
+  background: #7b1b1b;
+  margin: 30px auto;
+}
+
+main blockquote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1em;
+  margin: 40px 0;
+  border-left: none;
+  color: #555;
+}
+
+body.index-page {
+  background: url('assets/images/parchment_texture.png') repeat;
+}
+
+/* Homepage Background */
+body.index-page {
+  background: url('assets/images/parchment_texture.png') repeat;
+}
+
+/* Homepage Blockquotes */
+body.index-page main blockquote {
+  font-size: 1.15em;
+  font-style: italic;
+  text-align: center;
+  color: #555;
+  border-left: none;
+  margin: 40px 0;
+}
+
+/* Homepage Heraldic Divider */
+.heraldic-divider {
+  width: 80px;
+  height: 2px;
+  background: #7b1b1b;
+  margin: 30px auto;
+}
+
+/* Homepage Header Minor Improvement */
+body.index-page header {
+  border-bottom: 2px solid #7b1b1b;
+}
+
+/* Homepage Call-to-Action Button */
+.tribal-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 30px;
+  border: 2px solid #c0032c;
+  text-decoration: none;
+  color: #c0032c;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15em;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.tribal-button:hover {
+  background-color: #c0032c;
+  color: white;
+}
