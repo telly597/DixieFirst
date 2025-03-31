@@ -299,6 +299,13 @@ body.index-page header {
   display: block;
 }
 
+.tribal-map-container, .tribal-map {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+
 /* Border */
 .border-overlay {
   position: absolute;
