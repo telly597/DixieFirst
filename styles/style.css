@@ -288,3 +288,10 @@ body.index-page main blockquote {
 .dixie-shield:hover {
   transform: translate(-50%, -50%) scale(1.05);
 }
+
+
+/* Symbols */
+.symbols-page img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
