@@ -491,3 +491,97 @@ body.faq-page header {
 .faq-page .doctrine-section li {
   margin-bottom: 10px;
 }
+
+
+/* --- Field Manual Style for Participation Page --- */
+
+.participation-page main {
+  background-color: #fdfaf7;
+  border: 2px solid #c7bba5;
+  padding: 40px;
+  max-width: 800px;
+  margin: 60px auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.participation-page h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4em;
+  text-align: center;
+  color: #7b1b1b;
+  margin-bottom: 10px;
+}
+
+.participation-page .doctrine-subtitle {
+  text-align: center;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 30px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+.participation-page .doctrine-section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4em;
+  color: #7b1b1b;
+  border-bottom: 1px solid #c7bba5;
+  padding-bottom: 4px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.participation-page p,
+.participation-page li {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #333;
+}
+
+.participation-page ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.participation-page ul li {
+  margin-bottom: 8px;
+}
+
+/* Call to action footer quote */
+.participation-page .doctrine-section p[style*="italic"] {
+  font-size: 1.1em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+  color: #7b1b1b;
+}
+
+/* Participation footer consistent with other pages */
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+  border-top: 2px solid #7b1b1b;
+  background-color: #fdfaf7;
+}
+
+/* Divider for Steps */
+.participation-page .step-divider {
+  width: 60px;
+  height: 2px;
+  background: #7b1b1b;
+  margin: 30px auto;
+}
+
+/* Manual Style Notes */
+.participation-page h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2em;
+  color: #7b1b1b;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
