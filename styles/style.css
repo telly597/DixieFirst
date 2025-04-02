@@ -591,3 +591,57 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+
+/* === Participation Form Styling === */
+.participation-page form {
+  border: 1px solid #c7bba5;
+  background: #fdfaf7;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.participation-page form label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  color: #7b1b1b;
+}
+
+.participation-page form input[type="text"],
+.participation-page form input[type="email"],
+.participation-page form select,
+.participation-page form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #c7bba5;
+  background: #fffdf8;
+  border-radius: 2px;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.participation-page form textarea {
+  resize: vertical;
+}
+
+.participation-page form button {
+  background: #c0032c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.participation-page form button:hover {
+  background: #7b1b1b;
+}
